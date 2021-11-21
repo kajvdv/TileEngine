@@ -1,5 +1,5 @@
 # TileEngine
-This is a small tile based engine I made with SDL and C++. The engine can be used to make very small games and to visualize algoritms.
+This is a small tile based engine I made with SDL and C++. The engine can be used to make very small games and to visualize algoritms. The repository has four examples for the usage of this engine. They all implement the game interface defined in Engine.h.
 
 # Installation
 Download the zip file and unpack it.
