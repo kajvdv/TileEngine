@@ -140,7 +140,7 @@ void Engine::DrawTile(int xTile, int yTile, int r, int g, int b)
 
 void Engine::DrawText(const char* text, int x, int y, int w, int h)
 {
-	TTF_Font* sans = TTF_OpenFont("..\\TileEngine\\LucidaTypewriterRegular.ttf", 50);
+	TTF_Font* sans = TTF_OpenFont("LucidaTypewriterRegular.ttf", 50);
 	SDL_Color white = { 255,255,255 };
 	SDL_Surface* textSurface = TTF_RenderText_Solid(sans, text, white);
 	SDL_Texture* textTexture = SDL_CreateTextureFromSurface(renderer, textSurface);
